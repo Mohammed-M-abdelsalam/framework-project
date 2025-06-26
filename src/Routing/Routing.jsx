@@ -7,6 +7,7 @@ import Portfolio from "../pages/Profile/Portfolio";
 function Routing(){
     return(
         <Routes>
+            <Route path="/framework-project" element={<Home />} />
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="profile" element={<Portfolio />} />

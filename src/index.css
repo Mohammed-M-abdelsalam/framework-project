@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+
+@theme {
+    --color-main: #1abd9c;
+    --color-diffrent: #2b3d4f;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 3em;
+    padding-top: calc(24px + 72px);
+}
+
+@layer components {
+    .container-style {
+        @apply max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8;
+    }
+    .btn {
+        @apply py-2 px-4 my-3 cursor-pointer bg-main text-white font-semibold rounded-lg hover:opacity-80 focus:ring-2 ;
+    }
+}
+
+.active{
+    @apply bg-main rounded-sm;
+}

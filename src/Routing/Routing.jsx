@@ -8,10 +8,9 @@ function Routing(){
     return(
         <Routes>
             <Route path="/framework-project" element={<Home />} />
-            <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="profile" element={<Portfolio />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="framework-project/about" element={<About />} />
+            <Route path="framework-project/profile" element={<Portfolio />} />
+            <Route path="framework-project/contact" element={<Contact />} />
             <Route path="*" element={<Empty />} />
         </Routes>
     )

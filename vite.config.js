@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss(),
     flowbiteReact()
   ],
-  base: '/framework-start/',
+  base: '/framework-project/',
 })

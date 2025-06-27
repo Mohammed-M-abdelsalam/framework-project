@@ -7,9 +7,7 @@ import Routing from "./Routing/Routing"
 function App() {
   return (
     <>
-      <Navbar />
       <Routing />
-      <Footer />
     </>
   )
 }
